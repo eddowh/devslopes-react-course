@@ -6,7 +6,7 @@ var ListItem = React.createClass({
         return (
             <li>
                 <h4>
-                    {this.props.ingredient}
+                    {this.props.text}
                 </h4>
             </li>
         );
