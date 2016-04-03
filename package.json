@@ -1,0 +1,25 @@
+{
+  "name": "devslopes-react-skeletion",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eddowh/devslopes-react-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddowh/devslopes-react-skeleton/issues"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "watchify": "^3.7.0"
+  }
+}
