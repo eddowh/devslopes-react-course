@@ -45,10 +45,20 @@ var ListManager = React.createClass({
             marginTop: 10
         };
 
+        var panelStyle = {};
+        var panelHeadingStyle = {};
+        var buttonStyle = {};
+
+        if (this.props.headingColor) {
+            panelHeadingStyle.background = this.props.headingColor;
+            panelStyle.borderColor = this.props.headingColor;
+            buttonStyle.background = this.props.headingColor;
+        }
+
         return (
             <div style={divStyle} className="col-sm-4">
-                <div className="panel panel-primary">
-                    <div className="panel-heading">
+                <div style={panelStyle} className="panel panel-primary">
+                    <div style={panelHeadingStyle} className="panel-heading">
                         <h3>
                             {this.props.title}
                         </h3>
@@ -59,13 +69,13 @@ var ListManager = React.createClass({
                                 <input className="form-control" onChange={this.onChange} value={this.state.newItemText} />
                             </div>
                             <div className="col-sm-3">
-                                <button className="btn btn-primary">
+                                <button style={buttonStyle} className="btn btn-primary">
                                     Add
                                 </button>
                             </div>
                         </form>
-                        <List items={this.state.items} />
                     </div>
+                    <List items={this.state.items} />
                 </div>
             </div>
         );
