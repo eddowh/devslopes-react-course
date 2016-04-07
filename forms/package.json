@@ -1,5 +1,5 @@
 {
-  "name": "devslopes-react-skeletion",
+  "name": "devslopes-react-forms",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -7,15 +7,8 @@
     "start": "watchify src/main.jsx -d -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eddowh/devslopes-react-skeleton.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eddowh/devslopes-react-skeleton/issues"
-  },
   "dependencies": {
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
