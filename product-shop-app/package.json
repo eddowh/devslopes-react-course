@@ -12,6 +12,7 @@
   "dependencies": {
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
+    "email-validator": "^1.0.4",
     "history": "^2.0.1",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
